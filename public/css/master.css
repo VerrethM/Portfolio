@@ -1,0 +1,447 @@
+html {
+	background: #D93D61;
+}
+
+body {
+	background: #FFFFFF;
+	font-family: "Montserrat",sans-serif;
+	font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #4D1522;
+}
+
+body.pinkified {
+  background: #D93D61;
+  color: #FFFFFF;
+}
+
+header, main {
+  padding: 2rem 3rem;
+}
+
+main {
+  padding-bottom: 6rem;
+}
+
+.logo {
+  margin-bottom: 3rem;
+}
+
+.menu {
+	position: fixed;
+	top: 4rem;
+	right: 3rem;
+}
+
+nav {
+	display: none;
+	flex-direction: column;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.button-group {
+	display: block;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.button-group button {
+	display: inline-block;
+	padding: 1.5rem 3rem;
+	font-size: 1.6rem;
+	color: #8D2840;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 0.5rem;
+}
+
+.button-group .is-checked {
+	background: #8D2840;
+	color: #fff;
+}
+
+nav a {
+	margin-bottom: 1rem;
+	text-decoration: none;
+	color: #4D1522;
+}
+
+.pinkified nav a {
+  color: #FFFFFF;
+}
+
+nav a:hover {
+	color: #8D2840;
+}
+
+nav a.actief {
+  font-weight: 700;
+  color: #8D2840;
+}
+
+.pinkified nav a.actief {
+  color: #FFFFFF;
+}
+
+.intro, .profiel {
+  padding: 6rem 0 9rem;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.profiel {
+	max-width: 100rem;
+}
+
+.profiel .links {
+	text-align: center;
+	margin-bottom: 6rem;
+}
+
+.profiel img {
+	width: 80%;
+	display: inline-block;
+	height: auto;
+	border-radius: 100%;
+}
+
+.intro h1, .profiel h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #8D2840;
+  /*color: #D93D61; BUBBLEGUM */
+}
+
+.pinkified .intro h1, .pinkified .profiel h1 {
+  color: #FFFFFF;
+}
+
+.profiel p {
+	margin-bottom: 2rem;
+}
+
+.profiel ul {
+	margin: 2rem 0;
+}
+
+.profiel ul li {
+	position: relative;
+	padding-left: 4rem;
+}
+
+.profiel ul li i {
+	position: absolute;
+	left: 0;
+	color: #8D2840;
+}
+
+.pinkified .profiel ul li i {
+	color: #FFFFFF;
+}
+
+footer {
+  padding: 6rem 3rem;
+  background: #D93D61;
+  color: #FFFFFF;
+}
+
+footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+}
+
+footer .links {
+  padding-bottom: 3rem;
+}
+
+footer .rechts span {
+  vertical-align: middle;
+}
+
+.schakelaar {
+  margin-top: -0.5rem;
+  margin-left: 1rem;
+  width: 5rem;
+  height: 2.5rem;
+  background: #8D2840;
+  border-radius: 2rem;
+  display: inline-block;
+  cursor: pointer;
+  text-align: left;
+}
+
+.schakelaar.aan {
+  text-align: right;
+}
+
+.schakelaar .knopje {
+  margin: .25rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  background: #FFFFFF;
+  display: inline-block;
+}
+
+form {
+	margin-top: 3rem;
+}
+
+form label {
+	display: block;
+	margin-bottom: 2rem;
+}
+
+form input {
+	padding: 0 0.5rem;
+}
+
+form input, .verzendknop {
+	line-height: 4rem;
+	font-family: "Montserrat",sans-serif;
+}
+
+form input, form textarea {
+	display: block;
+	width: 100%;
+	border: 0.1rem solid #4D1522;
+}
+
+form input:focus, form textarea:focus {
+	/*color: #FFFFFF;*/
+	background: #D93D61;
+	background: #f2bbc8;
+	outline: none;
+}
+
+form textarea {
+	height: 10rem;
+	font-family: "Montserrat",sans-serif;
+	padding: 1rem 0.5rem;
+}
+
+.verzendknop {
+	width: auto;
+	height: 4rem;
+	padding: 0 3rem;
+}
+
+.verzendknop, a.meerlezen {
+	display: block;
+	outline: none;
+	border: none;
+	background:  #8D2840;
+	font-size: 1.6rem;
+	color: #fFFFFF;
+	cursor: pointer;
+	border-bottom: 0.3rem solid #4D1522;
+}
+
+.verzendknop:hover {
+	border: 0;
+}
+
+.resultaat {
+	margin-top: 4rem;
+	border: 0.1rem solid #4D1522;
+	padding: 3rem;
+	font-size: 2rem;
+}
+.pinkified .resultaat {
+	border-color: #FFFFFF;
+}
+
+/* CSS voor ejs-bestanden */
+
+article h1 {
+	font-weight: 600;
+}
+
+/*
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 2rem;
+}
+// Isotope werkt niet met grid, maar wel met absolute positioning.
+*/
+
+.grid-item {
+	margin-bottom: 5%;
+	width: 100%;
+}
+
+a.meerlezen {
+	text-decoration: none;
+	padding: 0.5rem 3rem;
+	width: 18rem;
+	margin-top: 2rem;
+
+}
+
+.grid article {
+	background-color: #f9f9f9;
+}
+
+.pinkified .grid article {
+	background: rgba(255,255,255,0.1);
+}
+
+.grid article .kaart {
+	padding: 2rem 2rem 3rem;
+}
+
+section img {
+	max-width: 100%;
+	transition: 0.2s all ease-in-out;
+}
+
+.grid article:hover img {
+	transform: scale(1.1);
+}
+
+article figure {
+	overflow: hidden;
+}
+
+.detail {
+	padding: 0 6rem;
+	max-width: none;
+	margin: 0 auto 10rem;
+}
+
+.img-detail {
+ max-width: 100%;
+}
+
+.nametag {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 3rem;
+}
+
+
+
+
+@media (min-width: 800px) {
+	.detail {
+		max-width: 80vw;
+	}
+
+	.tabbladen {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.tabbladen li {
+		margin-right: 2rem;
+		margin-bottom: 0;
+	}
+
+  .intro h1, .profiel h1 {
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+
+	.profiel {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+
+	.profiel .links {
+		text-align: left;
+		margin: 0;
+	}
+
+	.profiel img {
+		width: 80%;
+	}
+
+
+  header, main {
+    padding: 3rem 6rem;
+  }
+
+  .menu {
+    top: 7.5rem;
+  	right: 6rem;
+  }
+
+  footer {
+    padding: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  footer a {
+      margin-right: 2rem;
+      display: inline-block;
+  }
+
+  footer .links {
+    padding-bottom: 0;
+  }
+
+  footer .rechts {
+    text-align: right;
+  }
+
+	.grid {
+		margin-left: -5%;
+		/* Omdat de kinderen van .grid telkens een margin-left van 5% hebben geven we de container -5% zodat er ruimte is om alles uit te lijnen langs links */
+	}
+	.grid-item {
+		width: 45%;
+		margin-left: 5%;
+		margin-bottom: 5%;
+	}
+
+}
+
+@media (min-width: 1100px) {
+	.detail {
+		max-width: 60vw;
+	}
+		form .kolommen {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		form .kolommen label {
+			width: 48%;
+		}
+
+		.menu {
+			display: none;
+		}
+
+		nav {
+			display: flex;
+			flex-direction: row;
+			position: absolute;
+			top: 7.5rem;
+			right: 6rem;
+		}
+
+		nav a {
+			margin-left: 2rem;
+		}
+
+		.grid {
+			margin-left: -3%;
+		}
+		.grid-item {
+			width: 30%;
+			margin-left: 3%;
+			margin-bottom: 3%;
+		}
+}

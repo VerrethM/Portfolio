@@ -1,0 +1,15 @@
+{
+  "name": "1920_cmt4_verrethm_opdracht1",
+  "version": "1.0.0",
+  "description": "This is an excersise for CMT4. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marijke Verreth",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}

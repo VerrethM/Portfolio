@@ -1,0 +1,29 @@
+<%- include("header"); -%>
+<main>
+	<div class="intro">
+		<h1>Contact</h1>
+		<p>Interested in my work? Let's get in touch! </p>
+		<form>
+			<div class="kolommen">
+				<label>
+					First name
+					<input name="voornaam" class="voornaam" />
+				</label>
+				<label>
+					Last name
+					<input name="achternaam" class="achternaam" />
+				</label>
+			</div>
+			<label>
+				Email address
+				<input name="email" class="email" />
+			</label>
+			<label>
+				Personal message
+				<textarea name="bericht" class="bericht"></textarea>
+			</label>
+			<input type="submit" value="Get in touch" class="verzendknop" />
+		</form>
+	</div>
+</main>
+<%- include("footer"); -%>

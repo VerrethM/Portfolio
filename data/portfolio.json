@@ -1,0 +1,108 @@
+{
+  "info": [{
+    "title": "Digitap Artesis Plantijn",
+    "date": "11/12/2019",
+    "author": "Marijke Verreth",
+    "image": "digitap.jpeg",
+    "categories":"webdesign school",
+    "content": "Digitap is the digital learning environment of Artesis Plantijn University of Applied Sciences. Students use this platform to consult courses, submit tasks and communicate with professors and fellow students. The makers of Digitap wanted to refresh the design of the website. All Cross Media Design students were given the opportunity to design a start and home page in HTML, CSS and JS."
+  },{
+    "title": "AP wayfinding",
+    "date": "22/12/2019",
+    "author": "Marijke Verreth",
+    "image": "apwayfinding2.jpeg",
+    "categories":"webdesign shool",
+    "content": "AP wayfinding is a fictitious application for Artesis Plantijn University of Applied Sciences. The app is designed to create a visual solution that guarantees a flawless wayfinding process for visitors who have never been to the campuses before. The design of the app is based on the latest design trends such as gradients, illustrations and duotone icons."
+  },{
+    "title": "Human organs",
+    "date": "18/02/2020",
+    "author": "Marijke Verreth",
+    "image": "humanorgans.jpeg",
+    "categories":"webdesign school",
+    "content": "Human Organs is an experimental project in which the data of a certain subject had to be displayed in a transparent framework. The result is a self-made illustration of a human being and 6 important organs. The user can select organs and discover the functions of the organ and its proportion to the other organs."
+  },{
+   "title": "Chilly's",
+    "date": "20/12/2019",
+    "author": "Marijke Verreth",
+    "image": "chillys.jpeg",
+    "categories":"webdesign school",
+    "content": "This project is an e-commerce website for Chilly's. The reusable water bottles are a modern and stylish product that combines the convenience of a plastic water bottle with the high technology and environmentally friendly advantages of a traditional bottle. The website offers the possibility to completely personalize a bottle so that you have a unique product."
+  },{
+    "title": "Picture Perfect Guide",
+     "date": "12/04/2019",
+     "author": "Marijke Verreth",
+     "image": "pictureperfectguide.jpeg",
+     "categories":"webdesign client",
+     "content": "The picture perfect guide was one of my first assignments for a client. Challenge MC is a people agency, they provide companies and events with hosts and hostesses. New employees have to register online and include a professional picture of themselves. The Picture Perfect Guide contains clear guidelines to help the new employees take a professional picture."
+  },{
+    "title": "INSPIRE.ME",
+     "date": "24/11/2019",
+     "author": "Marijke Verreth",
+     "image": "tomhautekiet.jpeg",
+     "categories":"webdesign school",
+     "content": "INSPIRE.ME is an editorial website for creative entrepreneurs with interesting articles, interviews, tips & tricks. The entrepreneurs can put themselves on the map by becoming a member of the community. The graphic designer in the spotlight that month was none other than Tom Hautekiet."
+  },{
+    "title": "Moochie Frozen Yoghurt",
+     "date": "06/11/2019",
+     "author": "Marijke Verreth",
+     "image": "moochie.jpeg",
+     "categories":"webdesign school",
+     "content": "Moochie has become a well known name in Antwerp. The organic frozen yoghurt makes everyone long for summer. The wordpress website translates their standards and values and makes the user drool. Moochie already has six branches. They are located in Antwerp, Mechelen, Hasselt, Leuven, Ghent and Heist op den Berg."
+  },{
+    "title": "Kim De Molenaer Photographer",
+     "date": "04/12/2019",
+     "author": "Marijke Verreth",
+     "image": "kimdemolenaer.jpeg",
+     "categories":"webdesign school",
+     "content": "This project was developed while learning how to work with the JavaScript library PhotoSwipe. Kim De Molenaer is a contemporary photographer based out Belgium & Greece. The artist captures his human subjects in moments of vulnerability, either staged or improvised. De Molenaer shows an artistic appreciation for the naked body, using contrast to accentuate shadow and form.  "
+  },{
+    "title": "TOGENDER",
+     "date": "02/05/2019",
+     "author": "Marijke Verreth",
+     "image": "tog.jpeg",
+     "categories":"webdesign school",
+     "content": "People everywhere understand and support the idea of gender equality. They know it’s not just a women’s issue, it’s a human rights issue. Togender is a fictitious organization that stands up for gender equality. The name, logo, slogan, corporate identity, campaigns and website were created, designed and implemented by a team of 4 students."
+    },{
+    "title": "Portfolio",
+     "date": "10/01/2018",
+     "author": "Marijke Verreth",
+     "image": "marijkeverreth.jpeg",
+     "categories":"printmedia school",
+     "content": "A custom designed font that consists only of basic shapes. The font was used on the cover of the Graphic Design portfolio. The colors of the font are perfect for summer applications. The small patterns in the letters create a very cheerful and playful effect. "
+    },{
+    "title": "TOGENDER",
+     "date": "02/05/2019",
+     "author": "Marijke Verreth",
+     "image": "togender.jpeg",
+     "categories":"printmedia school",
+     "content": "People everywhere understand and support the idea of gender equality. They know it’s not just a women’s issue, it’s a human rights issue. Togender is a fictitious organization that stands up for gender equality. The name, logo, slogan, corporate identity, campaigns and website were created, designed and implemented by a team of 4 students."
+    },{
+    "title": "Challenge MC",
+     "date": "11/04/2019",
+     "author": "Marijke Verreth",
+     "image": "diploma.jpeg",
+     "categories":"printmedia client",
+     "content": "The certificate for the Ambassador's Masterclass was an assignment for Challenge MC. The employees of the company are given the opportunity to retrain themselves and to follow all kinds of seminars and courses. The participants of the Ambassador's Masterclass were officially rewarded with this stunning certificate. "
+    },{
+    "title": "Sexploitation",
+     "date": "17/05/2019",
+     "author": "Marijke Verreth",
+     "image": "sexploitation.jpg",
+     "categories":"printmedia school",
+     "content": "A photographic and typographic film poster for a fictitious movie in the sexploitation genre. The story is about a candy store in Marseille near the harbor that transformes into a brothel at night. When the madame of the brothel dies, her prudish daughter has to take over the brothel. "
+    },{
+    "title": "Timotheus Project",
+     "date": "19/10/2019",
+     "author": "Marijke Verreth",
+     "image": "timotheus.jpeg",
+     "categories":"printmedia client",
+     "content": "Content management and design of the three-monthly Timotheus Project magazine.Timotheus is a specialised training institution, recognized by the Flemish Ministry of Culture. They have been active in the field of non-formal education for more than 25 years. They focus on intuitive development, expansion of consciousness, personal growth and deepening of life. "
+    },{
+    "title": "Magis Magazine",
+     "date": "30/05/2019",
+     "author": "Marijke Verreth",
+     "image": "magis.jpeg",
+     "categories":"printmedia school",
+     "content": "Magis magazine is actually a portfolio-magazine. All kinds of school tasks were included in the magazine, but the knowledge of the software inDesign from Adobe CC and the layout of the magazine also played a very important role in the assessment. "
+    }]
+}

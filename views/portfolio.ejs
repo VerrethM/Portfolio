@@ -1,0 +1,26 @@
+<%- include("header"); -%>
+<main>
+	<div class="intro">
+		<h1>Projects</h1>
+		<p>Here are some of my best works. Most of these ideas have been brought to life for school assignments, but there are also already some projects for clients such as Challenge MC and Timotheus Project. The projects are divided into two categories: web design and print media. <br> Hopefully you'll like what you see.</p>
+		<!-- Filterknoppen -->
+		<div class="button-group filters-button-group">
+			<button class="button is-checked" data-filter="*">All projects</button>
+			<button class="button" data-filter=".webdesign">Webdesign</button>
+			<button class="button" data-filter=".printmedia">Print Media</button>
+			<button class="button" data-filter=".school">School</button>
+			<button class="button" data-filter=".client">Client</button>
+		</div>
+	</div>
+	<div class="grid">
+		<% for (let i=0; i<items.length; i++) { %>
+				<%- include('portfolio-item', {item: items[i], index: i}); -%>
+		<% } // close forloop %>
+		</div>
+</main>
+
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="/js/isotope.js"></script>
+
+<%- include("footer"); -%>

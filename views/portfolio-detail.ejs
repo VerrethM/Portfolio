@@ -1,0 +1,12 @@
+<%- include("header"); -%>
+<article>
+  <div class="detail">
+    <img class="img-detail" src="/img/<%=item.image%>">
+    <div class="nametag">
+      <h1><%=item.title %></h1>
+      <address class="author">© <%=item.author %></address>
+    </div>
+    <p><%=item.content %></p>
+  </div>
+</article>
+<%- include("footer"); -%>
